@@ -1,0 +1,1 @@
+#.s-main-slot .s-result-item
