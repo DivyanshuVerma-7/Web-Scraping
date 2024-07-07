@@ -25,7 +25,7 @@ def product_page_info():
             if href:
                 url = "https://www.amazon.in" + href
                 driver.get(url)
-                time.sleep(2)  # Adding a delay to ensure the page loads
+                time.sleep(2)  
 
                 try:
                     elem = driver.find_element(By.CLASS_NAME, "centerColAlign")
