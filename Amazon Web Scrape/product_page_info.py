@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 import os
 import time
 
+
+
 def product_page_info():
     driver = webdriver.Chrome()
     product_list = os.listdir("Search_page_data")
