@@ -44,6 +44,7 @@ def product_page_info():
                 print(f"No href attribute found for the link in file: {i}")
         else:
             print(f"No <a> tag found in file: {i}")
+    
     time.sleep(10)
 
     driver.quit()
